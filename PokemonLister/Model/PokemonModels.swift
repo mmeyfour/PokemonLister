@@ -10,8 +10,8 @@ import Foundation
 struct Item: Codable {
     let name: String
     let url: URL
-    
 }
+
 struct PokemonList: Codable {
     let results: [Item]
     let next: URL?
@@ -36,7 +36,7 @@ struct Pokemon: Codable {
     let height: Int
     let weight: Int
     let baseExperience: Int
-    let type: [PokemonType]
-    let ability: [PokemonAbility]
+    let types: [PokemonType]
+    let abilities: [PokemonAbility]
     let moves: [PokemonMove]
 }
