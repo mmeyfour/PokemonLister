@@ -7,31 +7,36 @@
 
 import Foundation
 
-struct item {
+struct Item: Codable {
     let name: String
     let url: URL
     
 }
+struct PokemonList: Codable {
+    let results: [Item]
+    let next: URL?
+}
 
-struct Pokemon {
+struct Pokemon: Codable {
     
-    struct PokemonType {
-        let type: item
+    struct PokemonType: Codable {
+        let type: Item
     }
-    struct PokemonAbility {
-        let ability: item
+    
+    struct PokemonAbility: Codable {
+        let ability: Item
     }
-    struct PokemonMove {
-        let move: item
+    
+    struct PokemonMove: Codable {
+        let move: Item
     }
     
     let id: Int
     let name: String
     let height: Int
     let weight: Int
-    let baseExperience: String
+    let baseExperience: Int
     let type: [PokemonType]
     let ability: [PokemonAbility]
     let moves: [PokemonMove]
-    
 }
