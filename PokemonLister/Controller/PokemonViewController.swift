@@ -9,22 +9,20 @@ import UIKit
 
 class PokemonViewController: UIViewController {
     
-    
     @IBOutlet weak var tableView: UITableView!
-    
     let pokemonListDataSource = PokemonListDataSource()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        registerCell()
-        
-        
+        setupTableView()
     }
-    func registerCell() {
+    
+    func setupTableView() {
         let identifier = PokemonTableViewCell.identifier
         let nib = UINib(nibName: identifier, bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: identifier)
+        tableView.dataSource = pokemonListDataSource
     }
-    
 }
 
 

@@ -8,13 +8,12 @@
 import UIKit
 
 class PokemonTableViewCell: UITableViewCell {
-    
     static let identifier = "PokemonTableViewCell"
 
     @IBOutlet weak var pokemonImageView: UIImageView!
     @IBOutlet weak var pokemonTextLabel: UILabel!
     
-    func configure(pokemon: Pokemon) {
+    func configure(pokemonSummary: PokemonSummaryViewModel) {
         pokemonTextLabel.text = pokemonSummary.name
         pokemonImageView.image = pokemonSummary.image
     }

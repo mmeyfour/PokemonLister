@@ -23,15 +23,16 @@
                             <constraint firstAttribute="height" constant="96" id="ahu-0X-aTP"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge0-mn-lWR">
-                        <rect key="frame" x="331" y="26" width="42" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge0-mn-lWR">
+                        <rect key="frame" x="362.5" y="16" width="41.5" height="20.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="Ge0-mn-lWR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="JNz-wm-6Ux"/>
+                    <constraint firstAttribute="trailing" secondItem="Ge0-mn-lWR" secondAttribute="trailing" constant="16" id="JSy-fa-05o"/>
                     <constraint firstItem="8eS-ql-dOe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Z8Q-bU-sOU"/>
                     <constraint firstItem="8eS-ql-dOe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="qny-HF-6Sa"/>
                     <constraint firstAttribute="bottom" secondItem="8eS-ql-dOe" secondAttribute="bottom" constant="16" id="tZE-yL-aCt"/>
