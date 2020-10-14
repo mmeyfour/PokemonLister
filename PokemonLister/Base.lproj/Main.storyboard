@@ -42,6 +42,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="AyG-PV-Wgo"/>
+                    <connections>
+                        <outlet property="tableView" destination="eqx-SP-0Co" id="yHc-PI-N1I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
