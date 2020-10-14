@@ -1,13 +1,14 @@
 //
-//  ViewController.swift
+//  PokemonViewController.swift
 //  PokemonLister
 //
-//  Created by Mersad Meyfour Asadi on 13/10/2020.
+//  Created by Mersad Meyfour Asadi on 14/10/2020.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class PokemonViewController: UIViewController {
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,4 +48,6 @@ class ViewController: UIViewController {
         }
     }
 }
+
+
 
