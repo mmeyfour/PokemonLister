@@ -29,8 +29,7 @@ class ViewController: UIViewController {
         print("We have received one pokemon with id \(pokemon.id) and name \(pokemon.name)")
         
     }
-    
-    func loadSamplePokemonList() {
+    private func loadSamplePokemonList() {
         guard let url = Bundle.main.url(forResource: "pokemon_list", withExtension: "json"), let data = try? Data(contentsOf: url) else {
             return
         }
@@ -46,5 +45,6 @@ class ViewController: UIViewController {
             print(name)
         }
     }
+    
 }
 

@@ -14,7 +14,10 @@ class PokemonTableViewCell: UITableViewCell {
     @IBOutlet weak var pokemonImageView: UIImageView!
     @IBOutlet weak var pokemonTextLabel: UILabel!
     
-
+    func configure(pokemon: Pokemon) {
+        pokemonTextLabel.text = pokemonSummary.name
+        pokemonImageView.image = pokemonSummary.image
+    }
 
     
 }

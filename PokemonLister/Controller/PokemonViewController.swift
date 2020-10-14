@@ -12,8 +12,11 @@ class PokemonViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    let pokemonListDataSource = PokemonListDataSource()
     override func viewDidLoad() {
         super.viewDidLoad()
+        registerCell()
+        
         
     }
     func registerCell() {

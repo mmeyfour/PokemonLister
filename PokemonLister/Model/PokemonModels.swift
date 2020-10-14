@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct Item: Codable {
     let name: String
@@ -39,4 +40,9 @@ struct Pokemon: Codable {
     let types: [PokemonType]
     let abilities: [PokemonAbility]
     let moves: [PokemonMove]
+}
+
+struct PokemonSummaryViewModel {
+    let image: UIImage
+    let name: String
 }
