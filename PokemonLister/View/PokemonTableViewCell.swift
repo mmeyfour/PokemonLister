@@ -17,6 +17,4 @@ class PokemonTableViewCell: UITableViewCell {
         pokemonTextLabel.text = pokemonSummary.name
         pokemonImageView.image = pokemonSummary.image
     }
-
-    
 }

@@ -25,9 +25,12 @@ class PokemonListDataSource: NSObject {
         guard let pokemonList = try? decoder.decode(PokemonList.self, from: data) else {
             return []
         }
+        print(pokemonList)
         let pokemons = pokemonList.results.map {pokemon in
             PokemonSummaryViewModel(image: UIImage.mainImage(pokemonId: "1"), name: pokemon.name)
+            
         }
+        print(pokemons)
         return pokemons
     }
 }
