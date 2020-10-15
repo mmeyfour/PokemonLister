@@ -18,12 +18,19 @@ class PokemonViewController: UIViewController {
     }
     
     func setupTableView() {
+//        1. Register cell type
         let identifier = PokemonTableViewCell.identifier
         let nib = UINib(nibName: identifier, bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: identifier)
+//        2. connect data source
         tableView.dataSource = pokemonListDataSource
+//        3. connect delegate
+        tableView.delegate = self
     }
 }
 
-
-
+extension PokemonViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: PokemonDetailViewController.segueIdentifier, sender: nil)
+    }
+}

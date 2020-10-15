@@ -12,28 +12,27 @@ class PokemonListDataSource: NSObject {
     let pokemons: [PokemonSummaryViewModel]
     
     override init() {
-        pokemons = PokemonListDataSource.getPokemon()
+        pokemons = PokemonListDataSource.getPokemons()
         super.init()
     }
     
-    static func getPokemon() -> [PokemonSummaryViewModel] {
-        guard let url = Bundle.main.url(forResource: "pokemon_list", withExtension: "json"), let data = try? Data(contentsOf: url) else {
-            return []
+    // TODO: remove when adding network code
+    static func getPokemons() -> [PokemonSummaryViewModel] {
+        guard let url = Bundle.main.url(forResource: "pokemon_list", withExtension: "json"),
+            let data = try? Data(contentsOf: url) else {
+                return []
         }
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         guard let pokemonList = try? decoder.decode(PokemonList.self, from: data) else {
             return []
         }
-        print(pokemonList)
-        let pokemons = pokemonList.results.map {pokemon in
-            PokemonSummaryViewModel(image: UIImage.mainImage(pokemonId: "1"), name: pokemon.name)
-            
+        
+        let pokemons = pokemonList.results.map { pokemon in
+            PokemonSummaryViewModel(image: UIImage.mainImage(pokemonId: pokemon.id), name: pokemon.name)
         }
-        print(pokemons)
         return pokemons
-    }
-}
+    }}
 
 
 extension PokemonListDataSource: UITableViewDataSource{
