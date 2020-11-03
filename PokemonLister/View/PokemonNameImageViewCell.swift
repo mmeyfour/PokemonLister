@@ -25,5 +25,4 @@ class PokemonNameImageViewCell: UITableViewCell {
             imageStackView.addArrangedSubview(newImageView)
         }
     }
-    
 }
