@@ -163,6 +163,7 @@
 		5071E513253709C800D2A119 /* 91.png in Resources */ = {isa = PBXBuildFile; fileRef = 5071E48D253709C800D2A119 /* 91.png */; };
 		50AB35EF2551DE0C001C9355 /* pokemon_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 50AB35ED2551DE0C001C9355 /* pokemon_detail.json */; };
 		50AB35F02551DE0C001C9355 /* pokemon_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 50AB35EE2551DE0C001C9355 /* pokemon_list.json */; };
+		50AB35F32551EB2E001C9355 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 50AB35F22551EB2E001C9355 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -324,6 +325,7 @@
 		5071E48D253709C800D2A119 /* 91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 91.png; sourceTree = "<group>"; };
 		50AB35ED2551DE0C001C9355 /* pokemon_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokemon_detail.json; sourceTree = "<group>"; };
 		50AB35EE2551DE0C001C9355 /* pokemon_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokemon_list.json; sourceTree = "<group>"; };
+		50AB35F22551EB2E001C9355 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,6 +342,7 @@
 		5071E35A2535E28500D2A119 = {
 			isa = PBXGroup;
 			children = (
+				50AB35F22551EB2E001C9355 /* README.md */,
 				5071E3652535E28500D2A119 /* PokemonLister */,
 				5071E3642535E28500D2A119 /* Products */,
 			);
@@ -620,6 +623,7 @@
 				5071E4B4253709C800D2A119 /* 29.png in Resources */,
 				50AB35F02551DE0C001C9355 /* pokemon_list.json in Resources */,
 				5071E49C253709C800D2A119 /* 61.png in Resources */,
+				50AB35F32551EB2E001C9355 /* README.md in Resources */,
 				5071E4BC253709C800D2A119 /* 37-alola.png in Resources */,
 				5071E4AD253709C800D2A119 /* 73.png in Resources */,
 				5071E4F4253709C800D2A119 /* 50-alola.png in Resources */,
