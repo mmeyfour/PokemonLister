@@ -164,6 +164,7 @@
 		50AB35EF2551DE0C001C9355 /* pokemon_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 50AB35ED2551DE0C001C9355 /* pokemon_detail.json */; };
 		50AB35F02551DE0C001C9355 /* pokemon_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 50AB35EE2551DE0C001C9355 /* pokemon_list.json */; };
 		50AB35F32551EB2E001C9355 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 50AB35F22551EB2E001C9355 /* README.md */; };
+		50AB35FA2551ED30001C9355 /* Grabación de pantalla 2020-11-03 a las 20.49.15.mov in Resources */ = {isa = PBXBuildFile; fileRef = 50AB35F92551ED30001C9355 /* Grabación de pantalla 2020-11-03 a las 20.49.15.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -326,6 +327,7 @@
 		50AB35ED2551DE0C001C9355 /* pokemon_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokemon_detail.json; sourceTree = "<group>"; };
 		50AB35EE2551DE0C001C9355 /* pokemon_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pokemon_list.json; sourceTree = "<group>"; };
 		50AB35F22551EB2E001C9355 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50AB35F92551ED30001C9355 /* Grabación de pantalla 2020-11-03 a las 20.49.15.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "Grabación de pantalla 2020-11-03 a las 20.49.15.mov"; path = "../../../../../../Users/mmeyfour/Desktop/Grabación de pantalla 2020-11-03 a las 20.49.15.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,6 +345,7 @@
 			isa = PBXGroup;
 			children = (
 				50AB35F22551EB2E001C9355 /* README.md */,
+				50AB35F92551ED30001C9355 /* Grabación de pantalla 2020-11-03 a las 20.49.15.mov */,
 				5071E3652535E28500D2A119 /* PokemonLister */,
 				5071E3642535E28500D2A119 /* Products */,
 			);
@@ -756,6 +759,7 @@
 				5071E48E253709C800D2A119 /* 88.png in Resources */,
 				5071E4E0253709C800D2A119 /* 19.png in Resources */,
 				5071E4DD253709C800D2A119 /* 76-alola.png in Resources */,
+				50AB35FA2551ED30001C9355 /* Grabación de pantalla 2020-11-03 a las 20.49.15.mov in Resources */,
 				5071E4EC253709C800D2A119 /* 25-sinnoh-cap.png in Resources */,
 				5071E36E2535E28500D2A119 /* Main.storyboard in Resources */,
 				5071E4A5253709C800D2A119 /* 25-alola-cap.png in Resources */,
