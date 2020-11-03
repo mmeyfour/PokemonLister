@@ -1,3 +1,3 @@
-this a small app with a TableView with 20 Pokémon's from a Json
+this is a small app with 20 pokemon´s in a TableView from a Json file
 
 ![](https://github.com/mmeyfour/PokemonLister/blob/main/PokemonLister.gif)
